@@ -7,22 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8b962ce-b16f-4261-a824-08c61427134e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/agency_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/agency_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_31.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_10_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_18_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agency.iml" beforeDir="false" afterPath="$PROJECT_DIR$/agency.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/agency/WEB-INF/lib/commons-fileupload-1.2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/agency/WEB-INF/lib/fastjson-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/agency/WEB-INF/lib/jackson-core-2.5.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/agency/WEB-INF/lib/jackson-databind-2.5.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/agency/WEB-INF/lib/spring-core-4.3.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/agency.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/agency/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/agency/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -73,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="170" column="37" lean-forward="true" selection-start-line="170" selection-start-column="37" selection-end-line="170" selection-end-column="37" />
+            <state relative-caret-position="176">
+              <caret line="148" column="21" lean-forward="true" selection-start-line="148" selection-start-column="21" selection-end-line="148" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -486,18 +472,25 @@
       <workItem from="1593228773941" duration="377000" />
       <workItem from="1593230260731" duration="217000" />
       <workItem from="1593241328850" duration="2711000" />
-      <workItem from="1593259659785" duration="244000" />
+      <workItem from="1593259659785" duration="1423000" />
     </task>
+    <task id="LOCAL-00001" summary="update pom.xml">
+      <created>1593259960691</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593259960691</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46767000" />
+    <option name="totallyTimeSpent" value="47946000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="222" y="-8" width="1706" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.46840826" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.46840826" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -507,7 +500,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.08713693" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36863968" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.07995846" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -534,6 +527,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update pom.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="update pom.xml" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/WebContent/META-INF/MANIFEST.MF">
@@ -843,8 +840,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="170" column="37" lean-forward="true" selection-start-line="170" selection-start-column="37" selection-end-line="170" selection-end-column="37" />
+        <state relative-caret-position="176">
+          <caret line="148" column="21" lean-forward="true" selection-start-line="148" selection-start-column="21" selection-end-line="148" selection-end-column="47" />
         </state>
       </provider>
     </entry>
