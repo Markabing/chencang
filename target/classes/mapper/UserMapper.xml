@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="gdufs.agency.dao.UserMapper" >
+  <resultMap id="BaseResultMap" type="gdufs.agency.entity.User" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="openId" property="openId" jdbcType="VARCHAR" />
+    <result column="nickName" property="nickName" jdbcType="VARCHAR" />
+    <result column="gender" property="gender" jdbcType="VARCHAR" />
+    <result column="city" property="city" jdbcType="VARCHAR" />
+    <result column="country" property="country" jdbcType="VARCHAR" />
+    <result column="avatarUrl" property="avatarUrl" jdbcType="VARCHAR" />
+    <result column="unionId" property="unionId" jdbcType="VARCHAR" />
+    <result column="province" property="province" jdbcType="VARCHAR" />
+    <result column="phoneNum" property="phonenum" jdbcType="VARCHAR" />
+    <result column="academy" property="academy" jdbcType="VARCHAR" />
+    <result column="address" property="address" jdbcType="VARCHAR" />
+    <result column="balance" property="balance" jdbcType="DOUBLE" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, openId, nickName, gender, city, country, avatarUrl, unionId, province, phoneNum, academy, address, balance
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    from User
+    where openId = #{openId,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
+    delete from User
+    where openId = #{openId,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="gdufs.agency.entity.User" >
+    insert into User (id, openId, nickName, gender, city, country, avatarUrl, unionId, province,
+      phoneNum, academy, address, 
+      balance)
+    values (#{id,jdbcType=VARCHAR}, #{openId,jdbcType=VARCHAR}, #{nickName,jdbcType=VARCHAR},
+      #{gender,jdbcType=VARCHAR}, #{city,jdbcType=VARCHAR}, #{country,jdbcType=VARCHAR},
+      #{avatarUrl,jdbcType=VARCHAR}, #{unionId,jdbcType=VARCHAR}, #{province,jdbcType=VARCHAR},
+      #{phonenum,jdbcType=VARCHAR}, #{academy,jdbcType=VARCHAR}, #{address,jdbcType=VARCHAR}, 
+      #{balance,jdbcType=DOUBLE})
+  </insert>
+  <insert id="insertSelective" parameterType="gdufs.agency.entity.User" >
+    insert into User
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null">
+        id,
+      </if>
+      <if test="openId != null">
+        openId,
+      </if>
+      <if test="nickName != null">
+        nickName,
+      </if>
+      <if test="gender != null">
+        gender,
+      </if>
+      <if test="city != null">
+        city,
+      </if>
+      <if test="country != null">
+        country,
+      </if>
+      <if test="avatarUrl != null">
+        avatarUrl,
+      </if>
+      <if test="unionId != null">
+        unionId,
+      </if>
+      <if test="province != null">
+        province,
+      </if>
+      <if test="phonenum != null" >
+        phoneNum,
+      </if>
+      <if test="academy != null" >
+        academy,
+      </if>
+      <if test="address != null" >
+        address,
+      </if>
+      <if test="balance != null" >
+        balance,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="openId != null" >
+        #{openId,jdbcType=VARCHAR},
+      </if>
+      <if test="nickName != null" >
+        #{nickName,jdbcType=VARCHAR},
+      </if>
+      <if test="gender != null" >
+        #{gender,jdbcType=VARCHAR},
+      </if>
+      <if test="city != null" >
+        #{city,jdbcType=VARCHAR},
+      </if>
+      <if test="country != null" >
+        #{country,jdbcType=VARCHAR},
+      </if>
+      <if test="avatarUrl != null" >
+        #{avatarUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="unionId != null" >
+        #{unionId,jdbcType=VARCHAR},
+      </if>
+      <if test="province != null" >
+        #{province,jdbcType=VARCHAR},
+      </if>
+      <if test="phonenum != null" >
+        #{phonenum,jdbcType=VARCHAR},
+      </if>
+      <if test="academy != null" >
+        #{academy,jdbcType=VARCHAR},
+      </if>
+      <if test="address != null" >
+        #{address,jdbcType=VARCHAR},
+      </if>
+      <if test="balance != null" >
+        #{balance,jdbcType=DOUBLE},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="gdufs.agency.entity.User" >
+    update User
+    <set >
+      <if test="openId != null" >
+        openId = #{openId,jdbcType=VARCHAR},
+      </if>
+      <if test="nickName != null" >
+        nickName = #{nickName,jdbcType=VARCHAR},
+      </if>
+      <if test="gender != null" >
+        gender = #{gender,jdbcType=VARCHAR},
+      </if>
+      <if test="city != null" >
+        city = #{city,jdbcType=VARCHAR},
+      </if>
+      <if test="country != null" >
+        country = #{country,jdbcType=VARCHAR},
+      </if>
+      <if test="avatarUrl != null" >
+        avatarUrl = #{avatarUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="unionId != null" >
+        unionId = #{unionId,jdbcType=VARCHAR},
+      </if>
+      <if test="province != null" >
+        province = #{province,jdbcType=VARCHAR},
+      </if>
+      <if test="phonenum != null" >
+        phoneNum = #{phonenum,jdbcType=VARCHAR},
+      </if>
+      <if test="academy != null" >
+        academy = #{academy,jdbcType=VARCHAR},
+      </if>
+      <if test="address != null" >
+        address = #{address,jdbcType=VARCHAR},
+      </if>
+      <if test="balance != null" >
+        balance = balance+#{balance,jdbcType=DOUBLE},
+      </if>
+    </set>
+    where openId = #{openId,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="gdufs.agency.entity.User" >
+    update User
+    set openId = #{openId,jdbcType=VARCHAR},
+      nickName = #{nickName,jdbcType=VARCHAR},
+      gender = #{gender,jdbcType=VARCHAR},
+      city = #{city,jdbcType=VARCHAR},
+      country = #{country,jdbcType=VARCHAR},
+      avatarUrl = #{avatarUrl,jdbcType=VARCHAR},
+      unionId = #{unionId,jdbcType=VARCHAR},
+      province = #{province,jdbcType=VARCHAR},
+      phoneNum = #{phonenum,jdbcType=VARCHAR},
+      academy = #{academy,jdbcType=VARCHAR},
+      address = #{address,jdbcType=VARCHAR},
+      balance = #{balance,jdbcType=DOUBLE}
+    where openId = #{openId,jdbcType=VARCHAR}
+  </update>
+</mapper>

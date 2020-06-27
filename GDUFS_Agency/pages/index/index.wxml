@@ -1,0 +1,52 @@
+<view class='layout_horizontal'>
+  <view style='flex:1'>
+  <navigator url='/pages/classInfo/classInfo?type={{classId.purchase}}'>
+  <view class='layout_horizontal_vertical'>
+     <image class='img' src='/img/phone.png'></image> 
+     <text>代购</text>
+  </view>
+  </navigator>
+  </view>
+  <view style='flex:1;'>
+  <navigator url='/pages/classInfo/classInfo?type={{classId.express}}'>
+  <view class='layout_horizontal_vertical'>
+     <image class='img' src='/img/deliverly.png'></image>
+     <text>代拿快递</text>
+  </view>
+  </navigator>
+  </view>
+  <view style='flex:1;'>
+  <navigator url='/pages/classInfo/classInfo?type={{classId.other}}'>
+  <view class='layout_horizontal_vertical'>
+     <image class='img' src='/img/computer.png'></image>
+     <text>其他代办</text>
+  </view>
+  </navigator> 
+  </view>
+</view>
+
+<view class="link"></view>
+
+<view class="title">
+ <text>这里是接单区</text>
+</view>
+<view class="layout_vertical">
+   <!-- <scroll-view scroll-y="true" style="height:100%"> -->
+     <view wx:for="{{agentOrders}}" >
+        <navigator 
+          url='/pages/goodsInfo/goodsInfo?id={{item.indentid}} ' hover-class="navigator-hover">
+           <view class="order_item">
+               <view class="item_container">
+                 <view class="left">{{typeArray[item.type]['type']}}:\t{{item.description}}</view>
+                 <view class="right">￥{{item.price}}</view>
+               </view>
+               <view class="item_container">
+                 <view class="left">{{item.address}}</view>
+                 <view class="right">{{item.plantime}}</view>
+               </view>
+           </view>
+        </navigator>
+       </view>  
+   <!-- </scroll-view> -->
+</view>
+

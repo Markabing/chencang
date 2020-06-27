@@ -1,0 +1,49 @@
+<view class='title-card'>
+  <view wx:if="{{avatarUrl!=''}}">
+    <image class='touxiang' src="{{avatarUrl}}"></image>
+    <view>
+      <text>{{nickName}}</text>
+    </view>
+    <view bindtap="goToRecharge">
+      <text>余额：{{balance}}元</text>
+    </view>
+  </view>
+
+    <view wx:else bindtap="goToLogin">
+    <image class='touxiang' src='/img/user.png'></image>
+    <view>
+      <text>请点击登陆</text>
+    </view>
+  </view>
+
+</view>
+
+
+<view class='box2'>
+  <view class='box-span' style='flex:1' bindtap="goToPreview">
+    <text class='left'>订单记录</text>
+    <view class='right'>
+      <image src='/img/enter.png'></image>
+    </view>
+  </view>
+</view>
+
+<view class='box2'>
+  <view class='box-span' style='flex:1' bindtap="userInformation">
+    <text class='left'>修改个人信息</text>
+    <view class='right'>
+      <image src='/img/enter.png'></image>
+    </view>
+  </view>
+</view>
+
+<view wx:if="{{avatarUrl!=''}}">
+	<view class='box2'>
+		<view class='box-span' style='flex:1' bindtap="logout">
+			<text class='left'>退出登录</text>
+			<view class='right'>
+				<image src='/img/enter.png'></image>
+			</view>
+		</view>
+	</view>
+</view>
