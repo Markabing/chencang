@@ -1,7 +1,9 @@
 ### ChenCang　陈仓校园跑腿　小程序+JAVA服务器后台
 
+
+
 <p align="center">
-    <img src="https://gitee.com/markabing/chencang/blob/master/train/camllmbr9jajnv4s74fp7r0msl_873a47fe7981ff5cf022f234e1e442001593315698.5056.png" width="300">
+    <img src="https://images.gitee.com/uploads/images/2020/0629/222405_57f33dab_7744052.png" width="300">
     <br>      
     <br>      
     <p align="center">
@@ -22,22 +24,22 @@
 ### 陈仓校园跑腿(ChenCang)基础版效果图
 <table>
     <tr>
-        <td><img src="https://gitee.com/markabing/chencang/blob/master/train/微信图片_20200629115520.png"/></td>
+        <td><img src="https://images.gitee.com/uploads/images/2020/0629/222527_12987c35_7744052.png"/></td>
     </tr>
     <tr>
-        <td><img src="https://gitee.com/markabing/chencang/blob/master/train/微信图片_20200629115459.png"/></td>
+        <td><img src="https://images.gitee.com/uploads/images/2020/0629/222558_1d90a8a3_7744052.png"/></td>
     </tr>
     <tr>
-        <td><img src="https://gitee.com/markabing/chencang/blob/master/train/微信图片_20200629115527.png"/></td>
+        <td><img src="https://images.gitee.com/uploads/images/2020/0629/222618_b01d81e7_7744052.png"/></td>
     </tr>
     <tr>
-        <td><img src="https://gitee.com/markabing/chencang/blob/master/train/微信图片_20200629115515.png"/></td>
+        <td><img src="https://images.gitee.com/uploads/images/2020/0629/222633_42359607_7744052.png"/></td>
     </tr>
     <tr>
-        <td><img src="https://gitee.com/markabing/chencang/blob/master/train/微信图片_20200629115615.png"/></td>
+        <td><img src="https://images.gitee.com/uploads/images/2020/0629/222648_0bae29e1_7744052.png"/></td>
     </tr>
     <tr>
-        <td><img src="https://gitee.com/markabing/chencang/blob/master/train/微信图片_20200629115523.png"/></td>
+        <td><img src="https://images.gitee.com/uploads/images/2020/0629/222703_c6ab5883_7744052.png"/></td>
     </tr>
 </table>
 
