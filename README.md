@@ -1,7 +1,7 @@
 ### ChenCang　陈仓校园跑腿　小程序+JAVA服务器后台
 
 <p align="center">
-    <img src="https://github.com/Markabing/chencang/blob/master/train/camllmbr9jajnv4s74fp7r0msl_873a47fe7981ff5cf022f234e1e442001593315698.5056.png" width="300">
+    <img src="https://gitee.com/markabing/chencang/blob/master/train/camllmbr9jajnv4s74fp7r0msl_873a47fe7981ff5cf022f234e1e442001593315698.5056.png" width="300">
     <br>      
     <br>      
     <p align="center">
@@ -22,22 +22,22 @@
 ### 陈仓校园跑腿(ChenCang)基础版效果图
 <table>
     <tr>
-        <td><img src="https://github.com/Markabing/chencang/blob/master/train/微信图片_20200629115520.png"/></td>
+        <td><img src="https://gitee.com/markabing/chencang/blob/master/train/微信图片_20200629115520.png"/></td>
     </tr>
     <tr>
-        <td><img src="https://github.com/Markabing/chencang/blob/master/train/微信图片_20200629115459.png"/></td>
+        <td><img src="https://gitee.com/markabing/chencang/blob/master/train/微信图片_20200629115459.png"/></td>
     </tr>
     <tr>
-        <td><img src="hhttps://github.com/Markabing/chencang/blob/master/train/微信图片_20200629115527.png"/></td>
+        <td><img src="https://gitee.com/markabing/chencang/blob/master/train/微信图片_20200629115527.png"/></td>
     </tr>
     <tr>
-        <td><img src="https://github.com/Markabing/chencang/blob/master/train/微信图片_20200629115515.png"/></td>
+        <td><img src="https://gitee.com/markabing/chencang/blob/master/train/微信图片_20200629115515.png"/></td>
     </tr>
     <tr>
-        <td><img src="https://github.com/Markabing/chencang/blob/master/train/微信图片_20200629115615.png"/></td>
+        <td><img src="https://gitee.com/markabing/chencang/blob/master/train/微信图片_20200629115615.png"/></td>
     </tr>
     <tr>
-        <td><img src="https://github.com/Markabing/chencang/blob/master/train/微信图片_20200629115523.png"/></td>
+        <td><img src="https://gitee.com/markabing/chencang/blob/master/train/微信图片_20200629115523.png"/></td>
     </tr>
 </table>
 
