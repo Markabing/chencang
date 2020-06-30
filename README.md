@@ -22,24 +22,22 @@
 4. 数据库使用mysql, 只用4张表便实现了所有基本功能，方便添加新功能。
 
 ### 陈仓校园跑腿(ChenCang)基础版效果图
-<table>
-    <tr>
-        <td><img src="https://images.gitee.com/uploads/images/2020/0629/222527_12987c35_7744052.png"/></td>
-    </tr>
-    <tr>
-        <td><img src="https://images.gitee.com/uploads/images/2020/0629/222558_1d90a8a3_7744052.png"/></td>
-    </tr>
-    <tr>
-        <td><img src="https://images.gitee.com/uploads/images/2020/0629/222618_b01d81e7_7744052.png"/></td>
-    </tr>
-    <tr>
-        <td><img src="https://images.gitee.com/uploads/images/2020/0629/222633_42359607_7744052.png"/></td>
-    </tr>
-    <tr>
-        <td><img src="https://images.gitee.com/uploads/images/2020/0629/222648_0bae29e1_7744052.png"/></td>
-    </tr>
-    <tr>
-        <td><img src="https://images.gitee.com/uploads/images/2020/0629/222703_c6ab5883_7744052.png"/></td>
-    </tr>
-</table>
+<div align="center"><img src="https://images.gitee.com/uploads/images/2020/0629/222527_12987c35_7744052.png"/></div>
+    <br>      
+    <br>
+<div align="center"><img src="https://images.gitee.com/uploads/images/2020/0629/222558_1d90a8a3_7744052.png"/></div>
+    <br>      
+    <br>
+<div align="center"><img src="https://images.gitee.com/uploads/images/2020/0629/222618_b01d81e7_7744052.png"/></div>
+    <br>      
+    <br>
+<div align="center"><img src="https://images.gitee.com/uploads/images/2020/0629/222633_42359607_7744052.png"/></div>
+    <br>      
+    <br>
+<div align="center"><img src="https://images.gitee.com/uploads/images/2020/0629/222648_0bae29e1_7744052.png"/></div>
+    <br>      
+    <br>
+<div align="center"><img src="https://images.gitee.com/uploads/images/2020/0629/222703_c6ab5883_7744052.png"/></div>
+    <br>      
+    <br>
 
